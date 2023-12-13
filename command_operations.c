@@ -95,7 +95,7 @@ void findAndExecuteCommand(CommandInfo *information)
 		}
 		else if (*(information->argument) != '\n')
 		{	information->execution_status = 127;
-			printErrorMessage(information, "Command not found\n");
+			printErrorMessage(information, "not found\n");
 		}
 	}
 }
