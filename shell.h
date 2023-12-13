@@ -256,8 +256,6 @@ ssize_t checkInput(CommandInfo *information);
 ssize_t read_input_buffer(CommandInfo *information,
 													char *buffer, size_t *index);
 
-ssize_t input_buf(CommandInfo *info, char **buf, size_t *len);
-
 ssize_t custom_getline(CommandInfo *information,
 					   char **buffer, size_t *buffer_size);
 
